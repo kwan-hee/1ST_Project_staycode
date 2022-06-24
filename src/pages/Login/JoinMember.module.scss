@@ -1,17 +1,26 @@
+.wrap {
+  display: grid;
+  place-items: center;
+}
 .container {
   display: flex;
   justify-content: center;
-  border: 1px solid black;
+  border: 1px solid white;
   width: 600px;
   height: 300px;
 }
-
+select {
+  width: 200px;
+  border: none;
+}
 .first {
+  display: flex;
+  justify-content: center;
   text-align: center;
   border: 1px solid white;
   display: block;
   width: 200px;
-  margin-left: 200px;
+
   margin-top: 10px;
   .log {
     text-align: center;
@@ -22,20 +31,20 @@
 .line_front {
   border-bottom: 1px solid black;
   width: 200px;
-  margin-left: 200px;
+
   margin-top: 30px;
 }
 .line {
   border-bottom: 1px solid black;
   width: 200px;
-  margin-left: 200px;
+
   margin-top: 30px;
 }
 
 .email_section {
   border: 1px solid white;
   width: 200px;
-  margin-left: 200px;
+
   margin-top: 20px;
   font-size: 11px;
   input {
@@ -51,7 +60,7 @@
 .password_section {
   border: 1px solid white;
   width: 200px;
-  margin-left: 200px;
+
   margin-top: 15px;
   input {
     border: none;
@@ -65,7 +74,7 @@
 .login_section {
   border: 1px solid black;
   width: 200px;
-  margin-left: 200px;
+
   margin-top: 10px;
   color: white;
   background: black;
@@ -77,7 +86,7 @@
 .join_membership {
   border: 1px solid black;
   width: 200px;
-  margin-left: 200px;
+
   margin-top: 10px;
   color: black;
   background: white;
@@ -91,7 +100,7 @@
   width: 200px;
   height: 20px;
   font-size: 5px;
-  margin-left: 200px;
+
   margin-top: 10px;
 }
 
@@ -105,7 +114,7 @@ find_butt1 {
 }
 .find_butt1 {
   position: absolute;
-  //   margin-top: -1px;
+
   font-size: 1px;
   margin-left: 50px;
   border: none;
@@ -124,7 +133,7 @@ find_butt1 {
 .email_section1 {
   border: 1px solid white;
   width: 200px;
-  margin-left: 200px;
+
   margin-top: 20px;
   font-size: 11px;
 
@@ -162,7 +171,7 @@ find_butt1 {
 }
 .find_butt1 {
   position: absolute;
-  //   margin-top: -1px;
+
   font-size: 1px;
   margin-left: 0px;
   border: none;
@@ -180,7 +189,7 @@ find_butt1 {
   width: 200px;
   height: 20px;
   font-size: 5px;
-  margin-left: 200px;
+
   margin-top: 10px;
   border-bottom: 1px solid black;
 }
@@ -204,7 +213,7 @@ find_butt1 {
 }
 .gap_line {
   position: absolute;
-  // border: 1px solid white;
+
   width: 200px;
   height: 30px;
 }

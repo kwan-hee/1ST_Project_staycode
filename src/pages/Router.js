@@ -10,14 +10,16 @@ import Basket from './Basket/Basket';
 import Detail from './Detail/Detail';
 import Find from './Find/Find';
 import Reservation from './Reservation/Reservation';
+import JoinMember from './Login/JoinMember';
 
 function Router() {
   return (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/JoinMember" element={<JoinMember />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/basket" element={<Basket />} />
         <Route path="/detail" element={<Detail />} />

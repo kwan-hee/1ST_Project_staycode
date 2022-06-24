@@ -1,2 +1,207 @@
-.container {
+.wrapper {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 200px;
+}
+
+.wrapup {
+  border: 1px solid #f5f5f5;
+  width: 100%;
+  background-color: #f5f5f5;
+  height: 150px;
+  //color: gray;
+}
+
+aBout,
+point,
+nEws,
+cAreers,
+cent,
+btt1,
+btt2,
+btt3,
+open,
+open1,
+info,
+icon,
+face,
+insta,
+naver,
+youtu,
+stay,
+folio {
+  position: relative;
+}
+.aBout {
+  position: absolute;
+  margin-left: -50px;
+  font-size: 10px;
+  margin-top: 20px;
+}
+.point {
+  position: absolute;
+  margin-left: -50px;
+  font-size: 10px;
+  margin-top: 40px;
+}
+.nEws {
+  position: absolute;
+  margin-left: -50px;
+  font-size: 10px;
+  margin-top: 60px;
+}
+.cAreers {
+  position: absolute;
+  margin-left: -50px;
+  font-size: 10px;
+  margin-top: 80px;
+}
+
+.cent {
+  position: absolute;
+  margin-left: -110px;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.btt1 {
+  position: absolute;
+  margin-left: -110px;
+  font-size: 1px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 5%;
+  background-color: black;
+  color: white;
+  padding: 4px;
+}
+
+.btt2 {
+  position: absolute;
+  margin-left: -65px;
+  font-size: 1px;
+  margin-top: 30px;
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: #f5f5f5;
+  color: black;
+  padding: 3px;
+}
+
+.btt3 {
+  position: absolute;
+  margin-left: -15px;
+  font-size: 1px;
+  margin-top: 30px;
+  border: 1px solid black;
+  border-radius: 4%;
+  background-color: #f5f5f5;
+  color: black;
+  padding: 3px;
+}
+
+.open {
+  position: absolute;
+  margin-left: -110px;
+  font-size: 5px;
+  margin-top: 60px;
+}
+
+.open1 {
+  position: absolute;
+  margin-left: -110px;
+  font-size: 5px;
+  margin-top: 85px;
+}
+
+.info {
+  position: absolute;
+  margin-left: -70px;
+  font-size: 5px;
+  margin-top: 85px;
+  font-weight: bold;
+}
+
+.stay {
+  position: absolute;
+  margin-left: 140px;
+  font-size: 13px;
+  margin-top: 20px;
+}
+.folio {
+  position: absolute;
+  margin-left: 140px;
+  font-size: 13px;
+  margin-top: 35px;
+}
+
+.icon {
+  position: absolute;
+  margin-left: 120px;
+  font-size: 13px;
+  margin-top: 65px;
+}
+face,
+insta,
+naver,
+youtu,
+copy,
+cfont,
+copy_st {
+  position: relative;
+}
+.face {
+  position: absolute;
+  margin-left: 5px;
+}
+.insta {
+  position: absolute;
+  margin-left: 20px;
+}
+.naver {
+  position: absolute;
+  margin-left: 40px;
+}
+.youtu {
+  position: absolute;
+  margin-left: 60px;
+}
+.copy {
+  position: absolute;
+  margin-left: 0px;
+  font-size: 1px;
+  margin-top: 25px;
+}
+.cfont {
+  position: absolute;
+  margin-left: 40px;
+  font-size: 10px;
+  margin-top: 25px;
+}
+.copy_st {
+  position: absolute;
+  margin-left: 50px;
+  font-size: 1px;
+  margin-top: 25px;
+}
+bottom_line,
+bottom_line1,
+bottom_line2 {
+  position: relative;
+}
+.bottom_line {
+  position: absolute;
+  margin-top: 110px;
+  border-bottom: 1px solid #d0d0d0;
+  width: 800px;
+}
+.bottom_line1 {
+  position: absolute;
+  margin-top: 120px;
+  font-size: xx-small;
+}
+.bottom_line2 {
+  position: absolute;
+  margin-top: 140px;
+  font-size: 1px;
 }

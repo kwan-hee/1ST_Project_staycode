@@ -19,6 +19,12 @@
     font-size: 13px;
   }
 }
+.line_front {
+  border-bottom: 1px solid black;
+  width: 200px;
+  margin-left: 200px;
+  margin-top: 30px;
+}
 .line {
   border-bottom: 1px solid black;
   width: 200px;
@@ -31,7 +37,9 @@
   width: 200px;
   margin-left: 200px;
   margin-top: 20px;
+  font-size: 11px;
   input {
+    margin-top: 10px;
     border: none;
     font-size: 5px;
     border-bottom: 1px solid #bbbbbb;
@@ -107,4 +115,96 @@ find_butt1 {
   position: absolute;
   font-size: 1px;
   margin-left: 120px;
+}
+.func {
+  font-size: 8px;
+  margin-left: 9px;
+}
+
+.email_section1 {
+  border: 1px solid white;
+  width: 200px;
+  margin-left: 200px;
+  margin-top: 20px;
+  font-size: 11px;
+
+  input {
+    margin-top: 10px;
+    border: none;
+    font-size: 5px;
+    border-bottom: 1px solid #bbbbbb;
+    width: 200px;
+    color: #bbbbbb;
+  }
+}
+.phone {
+  font-size: 8px;
+  margin-top: -5px;
+}
+.korea {
+  font-size: 8px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  width: 200px;
+}
+.find_butt {
+  position: absolute;
+  //   margin-top: -1px;
+  font-size: 1px;
+  margin-left: 2px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  width: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.find_butt1 {
+  position: absolute;
+  //   margin-top: -1px;
+  font-size: 1px;
+  margin-left: 0px;
+  border: none;
+  background: white;
+}
+.agree_butt1 {
+  position: absolute;
+  font-size: 1px;
+  margin-left: 120px;
+  border: none;
+  background: white;
+}
+.find_password1 {
+  border: 1px solid white;
+  width: 200px;
+  height: 20px;
+  font-size: 5px;
+  margin-left: 200px;
+  margin-top: 10px;
+  border-bottom: 1px solid black;
+}
+.gap {
+  margin-right: 5px;
+}
+.find_butt {
+  position: absolute;
+  margin-top: -10px;
+  font-size: 1px;
+  margin-left: 2px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  width: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.gap_line {
+  position: relative;
+}
+.gap_line {
+  position: absolute;
+  // border: 1px solid white;
+  width: 200px;
+  height: 30px;
 }
